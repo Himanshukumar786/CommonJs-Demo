@@ -10,11 +10,11 @@ async function readSampleFile() {
 }
 
 async function writeSampleFile() {
-    await fs.writeFile('./sample.txt', 'Hello World');
+    await fs.writeFile('./sample1.txt', 'Hello World');
 }
 
 async function appendSampleFile() {
     await fs.appendFile('./sample.txt', ' Hello World');
 }
 
-appendSampleFile();
+writeSampleFile();
